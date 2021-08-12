@@ -5,7 +5,8 @@ import { signIn } from "./graphsample";
 function App() {
   const sayHello = async () => {
     alert("Hello!");
-    await signIn("17013606455", "J2global!12");
+    const result = await signIn("17013606455", "J2global!12");
+    alert(JSON.stringify(result));
   };
 
   return (
