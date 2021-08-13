@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# fullstack-apollo-react-boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://travis-ci.org/the-road-to-graphql/fullstack-apollo-react-boilerplate.svg?branch=master)](https://travis-ci.org/the-road-to-graphql/fullstack-apollo-react-boilerplate) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/the-road-to-graphql/fullstack-apollo-react-boilerplate.svg)](https://greenkeeper.io/)
 
-## Available Scripts
+A full-fledged Apollo Server with Apollo Client starter project with React and Express. [Read more about it in this tutorial to build it yourself](https://www.robinwieruch.de/graphql-apollo-server-tutorial/).
 
-In the project directory, you can run:
+**Family of universal fullstack repositories:**
 
-### `npm start`
+Server Applications:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Node.js with Express + MongoDB](https://github.com/the-road-to-graphql/fullstack-apollo-express-mongodb-boilerplate)
+* [Node.js with Express + PostgreSQL](https://github.com/the-road-to-graphql/fullstack-apollo-express-postgresql-boilerplate)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Client Applications:
 
-### `npm test`
+* [React Client](https://github.com/the-road-to-graphql/fullstack-apollo-react-boilerplate)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features of Client + Server
 
-### `npm run build`
+* React (create-react-app) with Apollo Client
+  * Queries, Mutations, Subscriptions
+* Node.js with Express and Apollo Server
+  * cursor-based Pagination
+* PostgreSQL Database with Sequelize or MongoDB
+  * entities: users, messages
+* Authentication
+  * powered by JWT and local storage
+  * Sign Up, Sign In, Sign Out
+* Authorization
+  * protected endpoint (e.g. verify valid session)
+  * protected resolvers (e.g. e.g. session-based, role-based)
+  * protected routes (e.g. session-based, role-based)
+* performance optimizations
+  * example of using Facebook's dataloader
+* E2E testing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* `git clone git@github.com:the-road-to-graphql/fullstack-apollo-react-boilerplate.git`
+* `cd fullstack-apollo-react-boilerplate`
+* `npm install`
+* `npm start`
+* visit `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See Server Installation instructions in the other GitHub repository.
 
-### `npm run eject`
+## Want to learn more about React + GraphQL + Apollo?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Don't miss [upcoming Tutorials and Courses](https://www.getrevue.co/profile/rwieruch)
+* Check out current [React Courses](https://roadtoreact.com)
